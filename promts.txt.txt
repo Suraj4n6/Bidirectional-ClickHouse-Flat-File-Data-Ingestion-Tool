@@ -1,0 +1,29 @@
+# prompts.txt - AI Tooling Prompts Used in the Project
+
+1. Prompt: "Help me set up the frontend for my FastAPI project using React."
+   Use: Guided the initial setup of the frontend using `npm`, including folder structure and `npm start` instructions.
+
+2. Prompt: "Generate a README.md file for a project involving FastAPI backend and React frontend that supports data ingestion between ClickHouse and flat files."
+   Use: AI generated a complete README with setup instructions, tech stack, and usage steps.
+
+3. Prompt: "How do I connect React frontend with FastAPI backend?"
+   Use: Helped create API service structure and manage HTTP requests between frontend and backend using Axios.
+
+4. Prompt: "Generate documentation for both assignments combined in a professional PDF format for submission."
+   Use: AI provided complete content with a structure for the final submission PDF, including all required sections.
+
+5. Prompt: "Write the Contributing section and feature list for a ClickHouse data ingestion tool project."
+   Use: Helped in summarizing the key implemented features and encouraging collaboration via GitHub.
+
+6. Prompt: "Generate prompts.txt file listing all the AI interactions used in the project."
+   Use: This file itself is generated using this request.
+
+7. Prompt: "How do I handle CSV uploads and ClickHouse ingestion using FastAPI?"
+   Use: Guided creation of endpoints to handle file uploads, parsing, and database insertion.
+
+8. Prompt: "Create a full-stack project with FastAPI and React that supports bidirectional flow of CSV data with ClickHouse."
+   Use: Helped plan architecture and define REST API endpoints for both directions.
+
+9. Prompt: "Explain how to run both FastAPI and React servers together for development."
+   Use: Provided step-by-step dev environment setup instructions for running both servers concurrently.
+
