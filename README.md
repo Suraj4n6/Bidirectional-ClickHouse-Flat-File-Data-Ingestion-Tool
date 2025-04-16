@@ -19,3 +19,24 @@ This project implements a data ingestion tool that uses FastAPI for the backend 
 1. Clone the repository:
    ```bash
    git clone hhttps://github.com/Suraj4n6/DataWrangler1234
+# Data Ingestion Tool
+
+This project is a web-based data ingestion tool that facilitates bidirectional data flow between ClickHouse and flat files. It includes both a FastAPI backend and a React frontend for interacting with the data.
+
+## Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- Python 3.x
+- Node.js (for the frontend)
+- npm (for managing frontend packages)
+- ClickHouse (set up the database if not already done)
+
+## Backend Setup
+
+1. **Install required Python libraries:**
+
+   Navigate to the backend directory and run the following command to install the necessary dependencies:
+
+   ```bash
+   pip install -r requirements.txt
