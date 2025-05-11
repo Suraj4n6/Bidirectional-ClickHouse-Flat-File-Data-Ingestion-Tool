@@ -1,79 +1,110 @@
 # Data Ingestion Tool using FastAPI and ClickHouse
 
-## Project Overview
-This project implements a data ingestion tool that uses FastAPI for the backend and ClickHouse for storing and retrieving data. It allows bidirectional data flow between flat files and a ClickHouse database.
+## 📄 Project Overview
 
-## Features
-- FastAPI-based backend for handling data requests.
-- Integration with ClickHouse for efficient data storage and retrieval.
-- Frontend interface (React) to interact with the backend.
-  
-## Prerequisites
+This project implements a web-based data ingestion tool with a **FastAPI** backend and **ClickHouse** as the primary database. It facilitates **bidirectional data flow** between flat files and ClickHouse, offering efficient data processing and a user-friendly interface via a React-based frontend.
+
+---
+
+## ✨ Features
+
+- FastAPI-based backend for handling RESTful data operations
+- Integration with ClickHouse for high-performance data storage and querying
+- React-based frontend for seamless interaction with the backend API
+
+---
+
+## 📖 Prerequisites
+
+Ensure you have the following installed on your system:
+
 - Python 3.x
-- FastAPI
-- ClickHouse database
-- React (for frontend)
+- Node.js
+- npm
+- ClickHouse (running locally or remotely)
 
-## Setup Instructions
-### Backend Setup
-1. Clone the repository:
+---
+
+## 📅 Setup Instructions
+
+### 🚀 Backend Setup
+
+1. **Clone the repository**
+
    ```bash
-   git clone hhttps://github.com/Suraj4n6/DataWrangler1234
-# Data Ingestion Tool
+   git clone https://github.com/Suraj4n6/DataWrangler1234
+   cd DataWrangler1234
+   ```
 
-This project is a web-based data ingestion tool that facilitates bidirectional data flow between ClickHouse and flat files. It includes both a FastAPI backend and a React frontend for interacting with the data.
+2. **Install backend dependencies**
 
-## Prerequisites
-
-Ensure you have the following installed on your machine:
-
-- Python 3.x
-- Node.js (for the frontend)
-- npm (for managing frontend packages)
-- ClickHouse (set up the database if not already done)
-
-## Backend Setup
-
-1. **Install required Python libraries:**
-
-   Navigate to the backend directory and run the following command to install the necessary dependencies:
+   Navigate to the backend directory and install Python packages:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
-## Data Ingestion Tool
-A tool for ingesting and processing data with ClickHouse, FastAPI backend, and a frontend interface.
-Setup Instructions
-Backend Setup
+3. **Set up ClickHouse database**
 
-## Set up ClickHouse database:
-If the ClickHouse database is not already set up, please follow the ClickHouse setup documentation to configure it.
-## Run the FastAPI server:
-Start the FastAPI server with the following command:
-uvicorn main:app --reload
-This will start the backend server, typically accessible at http://localhost:8000.
+   If you haven’t already, follow the [ClickHouse setup guide](https://clickhouse.com/docs/en/quick-start) to get your database running.
 
-## Frontend Setup
+4. **Run the FastAPI server**
 
-Navigate to the frontend directory:
-Move to the frontend folder:
-bashcd frontend
+   Launch the backend using:
 
-## Install necessary npm packages:
-Run the following command to install the required npm packages:
-bashnpm install
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-## Start the frontend server:
-To start the frontend development server, run:
-bashnpm start
-This will launch the frontend, usually accessible at http://localhost:3000.
+   The server will be accessible at: [http://localhost:8000](http://localhost:8000)
 
-## Running the Application
-Ensure both the backend and frontend servers are running:
+---
 
-# Backend: http://localhost:8000
-# Frontend: http://localhost:3000
+### 📁 Frontend Setup
 
-Open the frontend in your browser and interact with the data ingestion tool.
-Contributing
-Feel free to fork this repository, submit issues, and create pull requests! Contributions are always welcome.
+1. **Navigate to the frontend folder**
+
+   ```bash
+   cd frontend
+   ```
+
+2. **Install npm packages**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the frontend server**
+
+   ```bash
+   npm start
+   ```
+
+   The frontend will run at: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🚀 Running the Application
+
+Make sure both servers are running:
+
+- **Backend**: http://localhost:8000
+- **Frontend**: http://localhost:3000
+
+Open your browser and navigate to the frontend to begin using the data ingestion tool.
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository, submit issues, or open pull requests. Contributions are always welcome!
+
+---
+
+## 📧 Contact
+
+For questions or support:
+
+**Sai Suraj R**  
+📧 [suraj.shetty4600@gmail.com](mailto:suraj.shetty4600@gmail.com)
+
